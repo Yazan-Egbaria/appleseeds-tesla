@@ -1,0 +1,23 @@
+/* XL - Extra large devices (large desktops, 1200px and down)*/
+@media screen and (max-width: 1200px) { 
+
+}
+
+/* LG - Large devices (desktops, 992px and down)*/
+@media screen and (max-width: 992px) { 
+    
+}
+
+
+/* MD - Medium devices (tablets, 768px and down)*/
+@media screen and (max-width: 768px) { 
+    
+}
+
+/* SM - Small devices (landscape phones, 576px and down)*/
+@media screen and (max-width: 576px) {
+
+}
+
+
+

@@ -1,0 +1,160 @@
+body {
+    font-family: 'Open-Sans', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* header */
+
+header {
+    width: 100vw;
+    padding: 24px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+svg {
+    width: 150px;
+}
+
+path {
+    fill: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    border-bottom: 1px solid none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.buttons svg {
+    width: 30px;
+}
+
+/* sections */
+
+.section {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+#first {
+    background-image: url('../images/image-1.jpg');
+}
+
+#second {
+    background-image: url('../images/image-2.jpg');
+}
+
+#third {
+    background-image: url('../images/image-3.jpg');
+}
+
+#first, #second, #third {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    top: 100px;
+}
+
+.content h1 {
+    font-size: 72px;
+}
+
+.content a {
+    font-size: 32px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.content p {
+    font-size: 24px;
+}
+
+.car-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.car-buttons a {
+    width: 325px;
+    padding: 14px 0;
+    background: red;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #3e6ae1;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.car-buttons a:hover {
+    background: white;
+    color: #3e6ae1;
+}
+
+#white-button {
+    background: white;
+    color: #393c41;
+    transition: all 0.3s ease;
+
+}
+
+#white-button:hover {
+    background: #393c41;
+    color: white;
+}
+
+.paragraph {
+    font-size: 32px !important;
+    color: white;
+}
+
+.link {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    text-decoration: underline;
+    border: none !important;
+}
